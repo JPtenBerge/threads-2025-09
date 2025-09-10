@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoProject", "DemoProject\DemoProject.csproj", "{F765D361-7C2B-44AD-B92D-5E18AD665CF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp", "WpfApp\WpfApp.csproj", "{6E8F37EC-8AD2-4EF0-9D73-25EBC178439B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F765D361-7C2B-44AD-B92D-5E18AD665CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F765D361-7C2B-44AD-B92D-5E18AD665CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F765D361-7C2B-44AD-B92D-5E18AD665CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F765D361-7C2B-44AD-B92D-5E18AD665CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E8F37EC-8AD2-4EF0-9D73-25EBC178439B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E8F37EC-8AD2-4EF0-9D73-25EBC178439B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E8F37EC-8AD2-4EF0-9D73-25EBC178439B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E8F37EC-8AD2-4EF0-9D73-25EBC178439B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
