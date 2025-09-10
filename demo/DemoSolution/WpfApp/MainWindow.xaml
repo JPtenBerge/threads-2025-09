@@ -19,6 +19,9 @@
         
         <Button Grid.Column="0" Grid.Row="0" Click="ButtonBase_OnClick">Klik hier</Button>
         <Label Grid.Column="0" Grid.Row="1" Name="lblResult">(nog niks)</Label>
+        
+        <Button Grid.Column="1" Grid.Row="0" Click="ButtonWorkerBase_OnClick">Klik hier voor de worker</Button>
+        <Label Grid.Column="1" Grid.Row="1" Name="lblResultWorker">(nog niks)</Label>
     </Grid>
 </Window>
 
