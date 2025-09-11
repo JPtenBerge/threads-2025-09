@@ -9,7 +9,7 @@ public class AwesomeService : IAwesomeService
 {
 	public async Task Doe()
 	{
-		await File.AppendAllTextAsync();
+		// await File.AppendAllTextAsync();
 	}
 }
 
@@ -20,4 +20,9 @@ public class FakeAwesomeService : IAwesomeService
 	{
 		return Task.FromResult("qwerty");
 	}
+	
+	// public async Task<int> SquareAsync2(int n)
+	// {
+	// 	return await Task<int>.Factory.FromAsync(BeginSquare, EndSquare,n,null);
+	// }
 }
