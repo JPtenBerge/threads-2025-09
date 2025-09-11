@@ -20,22 +20,25 @@ using TaskProject;
 // catch (AggregateException ex)
 // {
 // 	
-// }
+// // }
+//
+// Parallel.For(1, 100, (index, loopState) =>
+// {
+// 	if (index == 4)
+// 	{
+// 		Console.WriteLine("breaking want 4!");
+// 		loopState.Break();
+// 	}
+// 	
+// 	Thread.Sleep(100 * Random.Shared.Next(1, 50));
+// 	Console.WriteLine($"i: {index}");
+// });
 
-Parallel.For(1, 100, (index, loopState) =>
-{
-	if (index == 4)
-	{
-		Console.WriteLine("breaking want 4!");
-		loopState.Break();
-	}
-	
-	Thread.Sleep(100 * Random.Shared.Next(1, 50));
-	Console.WriteLine($"i: {index}");
-});
 
+// Collectionsssss.Doe();
+Barriertje.Doe();
 
-
+// Lazy
 
 
 
